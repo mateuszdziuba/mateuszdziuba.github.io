@@ -22,7 +22,7 @@ function toggleDone(){
  
 function addDeleteButton(li){
      var delBtn = document.createElement("button");
-     delBtn.textContent = "Delete";
+     delBtn.textContent = "X";
      li.appendChild(delBtn);
      delBtn.addEventListener("click", deleteItem);
 }
